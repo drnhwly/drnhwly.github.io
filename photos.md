@@ -45,28 +45,46 @@
 .masonry-grid {
   /* Sets the number of columns and the gap between them */
   column-count: 3;
-  column-gap: 0; 
+  column-gap: 20px; 
 }
 
 .masonry-grid img {
   /* Breaks the images out of their regular flow and places them into columns */
   break-inside: avoid;
-
   /* Makes the image span the entire width of its column */
   width: 100%; 
 
+  border-radius: 8px; /* Adjust this value for more or less rounded corners */
+  margin-bottom: 20px; /* Add some vertical space between images */
+  
   /* Removes any bottom margin or spacing that might cause gaps */
   display: block; 
 }
 </style>
 
 <div class="masonry-grid">
-  <img src="assets/images/image1.jpg" alt="Description of image 1">
-  <img src="assets/images/image2.jpg" alt="Description of image 2">
-  <img src="assets/images/image3.jpg" alt="Description of image 3">
-  <img src="assets/images/image4.jpg" alt="Description of image 4">
-  <img src="assets/images/image5.jpg" alt="Description of image 5">
-  <img src="assets/images/image6.jpg" alt="Description of image 6">
-  <img src="assets/images/image7.jpg" alt="Description of image 7">
-  <img src="assets/images/image8.jpg" alt="Description of image 8">
-  </div>
+  <a href="path/to/full-size/image1.jpg" data-lightbox="gallery">
+    <img src="path/to/image1.jpg" alt="Image description">
+  </a>
+  <a href="path/to/full-size/image2.jpg" data-lightbox="gallery">
+    <img src="path/to/image2.jpg" alt="Image description">
+  </a>
+  <a href="path/to/full-size/image3.jpg" data-lightbox="gallery">
+    <img src="path/to/image3.jpg" alt="Image description">
+  </a>
+  <a href="path/to/full-size/image4.jpg" data-lightbox="gallery">
+    <img src="path/to/image4.jpg" alt="Image description">
+  </a>
+  <a href="path/to/full-size/image5.jpg" data-lightbox="gallery">
+    <img src="path/to/image5.jpg" alt="Image description">
+  </a>
+  <a href="path/to/full-size/image6.jpg" data-lightbox="gallery">
+    <img src="path/to/image6.jpg" alt="Image description">
+  </a>
+  <a href="path/to/full-size/image7.jpg" data-lightbox="gallery">
+    <img src="path/to/image7.jpg" alt="Image description">
+  </a>
+  <a href="path/to/full-size/image8.jpg" data-lightbox="gallery">
+    <img src="path/to/image8.jpg" alt="Image description">
+  </a>
+</div>
