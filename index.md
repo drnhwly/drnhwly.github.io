@@ -37,4 +37,7 @@
   <a href="assets/images/image8.jpg" data-lightbox="gallery">
     <img src="assets/images/image8.jpg" alt="Image description">
   </a>
+  <a href="assets/images/image9.jpg" data-lightbox="gallery">
+    <img src="assets/images/image9.jpg" alt="Image description">
+  </a>
 </div>
