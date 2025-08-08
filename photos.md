@@ -63,28 +63,28 @@
 </style>
 
 <div class="masonry-grid">
-  <a href="path/to/full-size/image1.jpg" data-lightbox="gallery">
-    <img src="path/to/image1.jpg" alt="Image description">
+  <a href="assets/images/image1.jpg" data-lightbox="gallery">
+    <img src="assets/images/image1.jpg" alt="Image description">
   </a>
-  <a href="path/to/full-size/image2.jpg" data-lightbox="gallery">
-    <img src="path/to/image2.jpg" alt="Image description">
+  <a href="assets/images/image2.jpg" data-lightbox="gallery">
+    <img src="assets/images/image2.jpg" alt="Image description">
   </a>
-  <a href="path/to/full-size/image3.jpg" data-lightbox="gallery">
-    <img src="path/to/image3.jpg" alt="Image description">
+  <a href="assets/images/image3.jpg" data-lightbox="gallery">
+    <img src="assets/images/image3.jpg" alt="Image description">
   </a>
-  <a href="path/to/full-size/image4.jpg" data-lightbox="gallery">
-    <img src="path/to/image4.jpg" alt="Image description">
+  <a href="assets/images/image4.jpg" data-lightbox="gallery">
+    <img src="assets/images/image4.jpg" alt="Image description">
   </a>
-  <a href="path/to/full-size/image5.jpg" data-lightbox="gallery">
-    <img src="path/to/image5.jpg" alt="Image description">
+  <a href="assets/images/image5.jpg" data-lightbox="gallery">
+    <img src="assets/images/image5.jpg" alt="Image description">
   </a>
-  <a href="path/to/full-size/image6.jpg" data-lightbox="gallery">
-    <img src="path/to/image6.jpg" alt="Image description">
+  <a href="assets/images/image6.jpg" data-lightbox="gallery">
+    <img src="assets/images/image6.jpg" alt="Image description">
   </a>
-  <a href="path/to/full-size/image7.jpg" data-lightbox="gallery">
-    <img src="path/to/image7.jpg" alt="Image description">
+  <a href="assets/images/image7.jpg" data-lightbox="gallery">
+    <img src="assets/images/image7.jpg" alt="Image description">
   </a>
-  <a href="path/to/full-size/image8.jpg" data-lightbox="gallery">
-    <img src="path/to/image8.jpg" alt="Image description">
+  <a href="assets/images/image8.jpg" data-lightbox="gallery">
+    <img src="assets/images/image8.jpg" alt="Image description">
   </a>
 </div>
