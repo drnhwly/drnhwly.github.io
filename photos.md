@@ -1,6 +1,4 @@
 # My Photos
-![Bird and Wires](assets/images/20220318_bird_wires.jpg)
-
 <style>
   /* Basic CSS for the photo grid */
   .gallery {
@@ -43,9 +41,26 @@
   content: '';
   flex-grow: 999999999; /* A very high number to force it to take all remaining space */
 }
+
+.masonry-grid {
+  /* Sets the number of columns and the gap between them */
+  column-count: 3;
+  column-gap: 0; 
+}
+
+.masonry-grid img {
+  /* Breaks the images out of their regular flow and places them into columns */
+  break-inside: avoid;
+
+  /* Makes the image span the entire width of its column */
+  width: 100%; 
+
+  /* Removes any bottom margin or spacing that might cause gaps */
+  display: block; 
+}
 </style>
 
-<div class="image-gallery">
+<div class="masonry-grid">
   <img src="assets/images/image1.jpg" alt="Description of image 1">
   <img src="assets/images/image2.jpg" alt="Description of image 2">
   <img src="assets/images/image3.jpg" alt="Description of image 3">
