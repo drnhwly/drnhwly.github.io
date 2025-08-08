@@ -1,0 +1,15 @@
+# Basic Site Settings
+#------------------------------------------------
+title: Darin Hawley
+description: A website for testing GitHub Pages.
+show_downloads: false
+
+# Theme
+#------------------------------------------------
+theme: jekyll-theme-cayman
+
+# Build Settings
+#------------------------------------------------
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
