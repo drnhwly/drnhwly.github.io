@@ -18,9 +18,34 @@
   .gallery img:hover {
     transform: scale(1.05);
   }
+
+.image-gallery {
+  display: flex; /* Enables Flexbox */
+  flex-wrap: wrap; /* Allows images to wrap to the next line */
+  gap: 0; /* Removes all gaps between images */
+}
+
+.image-gallery img {
+  /* This is the key property for the justified layout.
+     It tells the images to grow or shrink to fill the row. */
+  flex-grow: 1; 
+
+  /* Ensures images maintain their aspect ratio */
+  object-fit: cover; 
+
+  /* Sets a minimum width for each image, preventing them from becoming too small */
+  min-width: 200px; 
+}
+
+/* This is a crucial trick to ensure the last row is also justified. 
+   It adds a flexible empty space to fill the remaining room. */
+.image-gallery::after {
+  content: '';
+  flex-grow: 999999999; /* A very high number to force it to take all remaining space */
+}
 </style>
 
-<div class="gallery">
+<div class="image-gallery">
   <img src="assets/images/image1.jpg" alt="Description of image 1">
   <img src="assets/images/image2.jpg" alt="Description of image 2">
   <img src="assets/images/image3.jpg" alt="Description of image 3">
