@@ -1,4 +1,3 @@
-# My Portfolio
 <style>
 .masonry-grid {
   column-count: 3;
