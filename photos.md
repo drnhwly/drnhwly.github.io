@@ -24,4 +24,9 @@
   <img src="assets/images/image1.jpg" alt="Description of image 1">
   <img src="assets/images/image2.jpg" alt="Description of image 2">
   <img src="assets/images/image3.jpg" alt="Description of image 3">
+  <img src="assets/images/image4.jpg" alt="Description of image 4">
+  <img src="assets/images/image5.jpg" alt="Description of image 5">
+  <img src="assets/images/image6.jpg" alt="Description of image 6">
+  <img src="assets/images/image7.jpg" alt="Description of image 7">
+  <img src="assets/images/image8.jpg" alt="Description of image 8">
   </div>
