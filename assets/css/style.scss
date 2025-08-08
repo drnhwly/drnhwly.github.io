@@ -1,1 +1,12 @@
 @import "{{ site.theme }}";
+.masonry-grid {
+  column-count: 3;
+  column-gap: 20px; 
+}
+.masonry-grid img {
+  break-inside: avoid;
+  width: 100%; 
+  border-radius: 8px; 
+  margin-bottom: 20px;
+  display: block; 
+}
